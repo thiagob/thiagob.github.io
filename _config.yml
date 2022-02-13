@@ -53,3 +53,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include:
+  - _estruturas
+
+header_pages:
+  - disciplinas.md
+  - about.md 
