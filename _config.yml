@@ -60,3 +60,8 @@ include:
 header_pages:
   - disciplinas.md
   - about.md 
+
+
+collections:
+  estruturas:
+    output: true

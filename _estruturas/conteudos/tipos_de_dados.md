@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tipos de Dados
-permalink: /estruturas/tipos-de-dados/
+category: conteudo
 ---
 
 
