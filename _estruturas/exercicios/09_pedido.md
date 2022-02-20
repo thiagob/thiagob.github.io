@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calculadora (Soma)
+title: Produto e Pedido
 category: exercicio
 subject: Python
 class_number: 2
