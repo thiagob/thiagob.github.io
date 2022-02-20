@@ -3,6 +3,7 @@ layout: page
 title: Cálculo IMC
 category: exercicio
 subject: Python
+class_number: 1
 ---
 Criar um método que receba massa e altura como parâmetros e calcule o índice de massa corporal.
 
