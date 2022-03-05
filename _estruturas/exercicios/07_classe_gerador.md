@@ -11,3 +11,22 @@ Construa uma classe Gerador que possua 2 métodos.
 2. Um método que retorne uma uma string aleatório do tamanho (número de caracteres) passado por parâmetro.
 
 Colocar essa classe em um arquivo .py e fazer uma chamada para esta classe de outro arquivo utilizando o import.
+
+### Exemplos de solução
+
+```python
+import random
+import string
+
+class Gerador:
+
+    def gerar_array_int(self, tamanho):
+        arr = []
+        while len(arr) < tamanho:
+            arr.append(random.randint(0,100000000))
+        
+        return arr
+    
+    def gerar_string(self, tamanho):
+        return ''.join(random.SystemRandom().choice(string.ascii_letters + string.digits) for _ in range(tamanho))
+```
