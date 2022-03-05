@@ -18,13 +18,10 @@ Fonte: [Wikipedia](https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal)
 ![formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/4db320ff2cde68cebea226fb921247d7ebbfad33)
 
 
-<details>
-  <summary>Solução</summary>
-  
+## Solução 
 ```python
 def imc(massa, altura):
     return massa / (altura * altura)
 
 print('IMC: %.1f' % imc(93, 2)) # IMC: 23.2
 ```
-</details>
