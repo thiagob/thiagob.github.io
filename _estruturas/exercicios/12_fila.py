@@ -1,3 +1,6 @@
+from fileinput import filename
+
+
 ---
 layout: page
 title: Implementação Fila
@@ -5,30 +8,15 @@ category: exercicio
 subject: Listas Lineares
 lesson: 4
 ---
-Percorrer a matriz abaixo para identificar o maior número.
+Fazer a implementação de uma classe para gerenciar uma fila, fazendo uso dos recursos disponíveis no array Python.
 
-```
-01, 20, 30, 01, 20, 02
-05, 12, 17, 18, 65, 53
-22, 10, 09, 45, 26, 12
-34, 22, 10, 14, 18, 22
-```
 
-### Exemplo de solução
+A classe deverá se chamar Fila e deverá conter os seguintes métodos:
 
-```python
-matriz = [
-    [1, 20, 30, 1, 20, 2],
-    [5, 12, 17, 18, 65, 53],
-    [22, 10, 9, 45, 26, 12],
-    [34, 22, 10, 14, 18, 22]
-]
+1. *enfileirar(elemento)*: o elemento passado por parâmetro deverá ser adicionado na final da fila
+1. *desenfileirar()*: deverá retorno o primeiro elemento da fila, removendo-o da fila
+1. *primeiro():* deverá retornar o primeiro elemento da fila sem removê-lo da fila
+1. *tamanho()*: deverá retornar a quantidade de elementos presentes na filename
+1. *vazia()*: deverá True quando não houverem elementos na filename
 
-max = 0
-for linha in matriz:
-    for val in linha:
-        if val > max:
-            max = val
-
-print('Maior valor = ' + str(max))
-```
+Documentação Python sobre Estruturas de Dados: https://docs.python.org/pt-br/3/tutorial/datastructures.html
