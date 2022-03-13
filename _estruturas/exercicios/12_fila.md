@@ -1,6 +1,3 @@
-from fileinput import filename
-
-
 ---
 layout: page
 title: Implementação Fila
