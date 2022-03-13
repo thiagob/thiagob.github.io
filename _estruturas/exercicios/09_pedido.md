@@ -13,13 +13,14 @@ O Total do pedido deverá ser a soma dos totais dos produtos.
 
 
 
-    ,----------------.  
-    |Produto         |  
-    |----------------|  
-    |+int quantidade |  
-    |+decimal preco  |  
-    |total(): decimal|  
-    `----------------'  
+    ,--------------------.  
+    |Produto             |  
+    |--------------------|  
+    |+int quantidade     |  
+    |+decimal preco      |  
+    |+string descricacao |      
+    |total(): decimal    |  
+    `--------------------'  
             |          
             |          
     ,-------------------.
