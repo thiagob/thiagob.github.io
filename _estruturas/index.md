@@ -17,16 +17,15 @@ permalink: /estruturas/
   {% assign lesson = 0 %}
   
   {% for item in items limit:33 %}
-    <li>
       {% if subject != item.subject %}
         {% assign subject = item.subject %}
         <h3>{{ item.subject }}</h3>
       {% endif %}
       {% if lesson != item.lesson %}
         {% assign lesson = item.lesson %}
-        <h3>{{ item.lesson }}</h3>
+        <h4>Aula {{ item.lesson }}</h4>
       {% endif %}
-  
+  <li> 
     <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
   </li>
   {% endfor %}
