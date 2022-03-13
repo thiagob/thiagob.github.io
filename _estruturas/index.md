@@ -14,10 +14,17 @@ permalink: /estruturas/
 {% assign items = site.estruturas | where:"category","exercicio" %}
 <ol>
   {% assign subject = '' %}
+  {% assign lesson = 0 %}
   {% for item in items limit:33 %}
     {% if subject != item.subject %}
       {% assign subject = item.subject %}
-      <h2>{{ item.subject }}</h2>
+  
+      {% if subject != '' %}
+        </ol></li>
+      {% endif %}
+      <li>
+        { item.subject }}
+        <ol>
     {% endif %}
   
     <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
