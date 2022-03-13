@@ -35,9 +35,6 @@ Diagrama gerado com: https://www.planttext.com/
 ### Exemplo de solução
 
 ```python
-from turtle import pen
-
-
 class Produto:
 
     quantidade = 0
