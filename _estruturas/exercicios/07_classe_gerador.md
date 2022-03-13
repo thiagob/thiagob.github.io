@@ -3,7 +3,7 @@ layout: page
 title: Classe Gerador
 category: exercicio
 subject: Python
-class_number: 2
+lesson: 2
 ---
 Construa uma classe Gerador que possua 2 métodos. 
 
