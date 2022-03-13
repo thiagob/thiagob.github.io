@@ -16,4 +16,6 @@ A classe deverá se chamar Fila e deverá conter os seguintes métodos:
 1. *tamanho()*: deverá retornar a quantidade de elementos presentes na filename
 1. *vazia()*: deverá True quando não houverem elementos na filename
 
-Documentação Python sobre Estruturas de Dados: https://docs.python.org/pt-br/3/tutorial/datastructures.html
+*Importante:* implementar essa classe em um arquivo fila.py para poder ser reutilizado como parte da biblioteca de estruturas de dados avançadas.
+
+<a href="https://docs.python.org/pt-br/3/tutorial/datastructures.html">Documentação Python sobre Estruturas de Dados</a>
