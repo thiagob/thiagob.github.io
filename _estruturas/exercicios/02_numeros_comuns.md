@@ -3,7 +3,7 @@ layout: page
 title: Números comuns a 2 arrays
 category: exercicio
 subject: Python
-class_number: 1
+lesson: 1
 ---
 Criar um novo array com os números que são comuns a 2 arrays, por exemplo:
 

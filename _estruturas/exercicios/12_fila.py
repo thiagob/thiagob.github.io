@@ -3,7 +3,7 @@ layout: page
 title: Implementação Fila
 category: exercicio
 subject: Listas Lineares
-class_number: 4
+lesson: 4
 ---
 Percorrer a matriz abaixo para identificar o maior número.
 

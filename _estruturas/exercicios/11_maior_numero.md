@@ -3,7 +3,7 @@ layout: page
 title: Maior número na Matriz
 category: exercicio
 subject: Python
-class_number: 2
+lesson: 3
 ---
 Percorrer a matriz abaixo para identificar o maior número.
 

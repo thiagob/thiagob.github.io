@@ -3,7 +3,7 @@ layout: page
 title: Produto e Pedido
 category: exercicio
 subject: Python
-class_number: 2
+lesson: 3
 ---
 Defina 2 classes: Produto e Pedido, conforme o diagrama abaixo.
 

@@ -3,7 +3,7 @@ layout: page
 title: Lista de alunos
 category: exercicio
 subject: Python
-class_number: 2
+lesson: 3
 ---
 1. Criar uma classe Aluno que possua os seguintes atributos:
     * Nome: string
