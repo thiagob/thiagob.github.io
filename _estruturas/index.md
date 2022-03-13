@@ -23,7 +23,7 @@ permalink: /estruturas/
       {% endif %}
       {% if lesson != item.lesson %}
         {% assign lesson = item.lesson %}
-        <h3>{{ item.lesson }}</h3>
+        <h4>Aula {{ item.lesson }}</h4>
       {% endif %}
   <li> 
     <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
