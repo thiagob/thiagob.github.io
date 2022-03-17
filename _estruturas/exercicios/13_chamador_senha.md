@@ -20,7 +20,7 @@ Minuto 2: João está sendo atendido, enquanto José chega a loja.
 Minuto 3: O antendimento de João é concluído.
 Minuto 4: José vai ao balcão e seu atendimento começa.
 Minuto 5: José está sendo atendido.
-Minuto 6: O antendimento de José concluído
+Minuto 6: O antendimento de José é concluído.
 Minuto 7: Atendente aguarda, pois não há ninguém para ser atendido.
 Minuto 8: Maria chega na loja, vai ao balcão e seu atendimento começa.
 ```
