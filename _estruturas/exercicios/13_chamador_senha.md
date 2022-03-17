@@ -25,3 +25,17 @@ Minuto 7: Atendente aguarda, pois não há ninguém para ser atendido.
 Minuto 8: Maria chega na loja, vai ao balcão e seu atendimento começa.
 ```
 
+**Problema:**
+
+Considerando que o array abaixo é uma lista de arrays com 2 elementos, onde o primeiro elemento repsenta o horário de chega do cliente e o segundo elemento representa o nome do cliente, em que minuto o atendimento de Carlos foi concluído?
+
+```python
+clientes = [
+    [1, 'José'],
+    [2, 'Maria'],
+    [4, 'João'],
+    [9, 'Ana'],
+    [9, 'Luiza'],
+    [9, 'Carlos']
+]
+```
