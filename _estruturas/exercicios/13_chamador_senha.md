@@ -39,3 +39,6 @@ clientes = [
     [9, 'Carlos']
 ]
 ```
+
+
+**Importante:** Utilize sua implementação de fila para resolver este problema.
