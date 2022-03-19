@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Implementação Fila Raiz
-category: exercicio
+category: !exercicio
 subject: Listas Lineares
 lesson: 4
 ---
