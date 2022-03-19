@@ -19,3 +19,29 @@ A classe deverá se chamar Fila e deverá conter os seguintes métodos:
 *Importante:* implementar essa classe em um arquivo fila.py para poder ser reutilizado como parte da biblioteca de estruturas de dados avançadas.
 
 <a href="https://docs.python.org/pt-br/3/tutorial/datastructures.html">Documentação Python sobre Estruturas de Dados</a>
+
+
+### Template
+
+```python
+class Fila:
+
+    def __init__(self):
+        self.items = []
+
+    def enfileirar(self, elemento):
+        pass
+
+    def desenfileirar(self):
+        return None
+
+    def primeiro(self):
+        return None
+
+    def tamanho(self):
+        return None
+
+    def vazia(self):
+        pass
+
+```
