@@ -2,7 +2,7 @@
 layout: page
 title: Chamador de Senha
 category: exercicio
-subject: Listas Lineares
+subject: Fila
 lesson: 5
 ---
 
