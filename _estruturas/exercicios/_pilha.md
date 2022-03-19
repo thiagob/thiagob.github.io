@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Implementação Pilha
-category: exercicio
+category: !exercicio
 subject: Listas Lineares
 lesson: 4
 ---
