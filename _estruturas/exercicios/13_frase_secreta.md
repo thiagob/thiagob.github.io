@@ -2,7 +2,7 @@
 layout: page
 title: Palavra Secreta
 category: exercicio
-subject: Fila
+subject: Listas Lineares
 lesson: 5
 ---
 
