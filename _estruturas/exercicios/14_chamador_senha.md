@@ -70,7 +70,11 @@ while True:
         if cliente[0] == min:
             fila.enfileirar(cliente[1])
 
-    # COMO IMPLEMENTAR ISTO?
+    # COMO IMPLEMENTAR:
+    # - identificar quando inicia o atendimento
+    # - identificar que 3 minutos depois o antendimento foi concluído
+    # - como chamar o próximo da fila no minuto seguinte
+    # ...
     if min == 3:
         print('Concluiu o atendimento de : ' + fila.desenfileirar())
         
