@@ -42,3 +42,36 @@ clientes = [
 
 
 **Importante:** Utilize sua implementação de fila para resolver este problema.
+
+
+## Ponto de partida (pode mudar, não precisa ser assim)
+
+```python
+from biblioteca.fila import Fila
+
+
+clientes = [
+    [1, 'José'],
+    [2, 'Maria'],
+    [4, 'João'],
+    [9, 'Ana'],
+    [9, 'Luiza'],
+    [9, 'Carlos']
+]
+
+min = 0
+fila = Fila()
+
+while True:
+    min += 1
+    print('MINUTO ' + str(min))
+
+    for cliente in clientes:
+        if cliente[0] == min:
+            fila.enfileirar(cliente[1])
+
+    # COMO IMPLEMENTAR ISTO?
+    if min == 3:
+        print('Concluiu o atendimento de : ' + fila.desenfileirar())
+        
+```
