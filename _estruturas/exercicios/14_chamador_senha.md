@@ -44,7 +44,7 @@ clientes = [
 **Importante:** Utilize sua implementação de fila para resolver este problema.
 
 
-## Ponto de partida (pode mudar, não precisa ser assim)
+## Ponto de Partida Opcional
 
 ```python
 from biblioteca.fila import Fila
