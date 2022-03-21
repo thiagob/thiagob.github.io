@@ -27,7 +27,7 @@ A classe deverá se chamar Fila e deverá conter os seguintes métodos:
 class Fila:
 
     def __init__(self):
-        self.items = []
+        self.itens = []
 
     def enfileirar(self, elemento):
         pass
