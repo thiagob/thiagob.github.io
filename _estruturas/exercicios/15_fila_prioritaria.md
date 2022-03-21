@@ -45,3 +45,36 @@ Implemente o controle destas filas utilizando sua classe de fila e responda: **q
 1. José
 1. Joaquim
 1. Jorge'
+
+
+## Ponto de Partida Opcional
+```python
+from biblioteca.fila import Fila
+
+fila_prio = Fila()
+fila_n_prio = Fila()
+
+fila_prio.enfileirar('Maria')
+fila_prio.enfileirar('João')
+print(fila_prio.items)
+
+fila_n_prio.enfileirar('José')
+fila_n_prio.enfileirar('Ana')
+print(fila_n_prio.items)
+
+print('*** SEQUENCIA DE ATENDIMENTO ***')
+
+# como posso fazer isto sem ter que copiar e colar o código?
+# como identificar quem foi atendido depois de Rosa
+# "if depois de Rosa?"
+for i in range(2):
+    print(fila_prio.desenfileirar())
+
+print(fila_n_prio.desenfileirar())
+
+for i in range(2):
+    if not fila_prio.vazia():
+        print(fila_prio.desenfileirar())
+
+print(fila_n_prio.desenfileirar())
+```
