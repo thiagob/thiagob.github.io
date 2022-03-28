@@ -8,8 +8,6 @@ lesson: 6
 
 João está em uma viagem de negócios de 6 dias de duração. Ao chegar no hotel, desfez sua mala. Sua pilha de camisetas ficou da seguinte forma (considere que a camiseta Preta é a camiseta que está no topo da pilha):
 
-| Pilha |
-|-------|
 | Preta |
 | Verde |
 | Branca |

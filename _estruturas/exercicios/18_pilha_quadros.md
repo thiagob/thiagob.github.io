@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pilha de Camiseta
+title: Pilha de Quadros
 category: exercicio
 subject: Listas Lineares
 lesson: 6
