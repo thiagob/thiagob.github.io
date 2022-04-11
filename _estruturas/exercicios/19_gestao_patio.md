@@ -24,8 +24,6 @@ Quando a empresa precisa de um container, ela retira o primeiro container (topo)
 ```python
 from biblioteca.pilha import Pilha
 
-from biblioteca.pilha import Pilha
-
 patio = Pilha()
 p_cont = Pilha()
 
