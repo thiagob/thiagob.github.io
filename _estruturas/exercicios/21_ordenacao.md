@@ -68,3 +68,7 @@ print(a_str)
 a_str = bubble_sort(a_str)
 print(a_str)
 ```
+
+### Exemplo
+
+[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/21_ordenacao.py)

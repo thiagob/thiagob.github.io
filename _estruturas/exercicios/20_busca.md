@@ -8,7 +8,7 @@ lesson: 8
 Em sua biblioteca de funções/classes criar um novo arquivo ```busca.py``` para que possas importá-lo nos próximos exercícios.
 
 # Problema
-* Neste arquivo faça a implementação dos algoritmos de busca linear e binária conforme tempalte abaixo:
+* Neste arquivo faça a implementação dos algoritmos de busca linear e binária conforme tempalte abaixo. Para busca linear escolha se deseja fazer a busca binária iterativa ou recursiva.
 
 ### Template
 ```python
