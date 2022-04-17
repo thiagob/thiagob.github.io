@@ -3,7 +3,7 @@ layout: page
 title: Algoritmos de Ordenação
 category: exercicio
 subject: Listas Lineares
-lesson: 7
+lesson: 8
 ---
 
 Em sua biblioteca de funções/classes criar um novo arquivo ```ordenacao.py``` para que possas importá-lo nos próximos exercícios.
