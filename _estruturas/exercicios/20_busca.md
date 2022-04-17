@@ -43,5 +43,6 @@ print(busca_binaria(a_int, 6))
 print(busca_binaria_iterativa(a_int, 6))
 print(busca_binaria(a_str, "azul"))
 ```
+### Exemplo
 
-Exemplo do Professor: []()
+[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/20_busca.py)
