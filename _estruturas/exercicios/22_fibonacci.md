@@ -30,3 +30,6 @@ print(fibonacci_recursivo(5))
 print(fibonacci_iterativo(25))
 print(fibonacci_recursivo(25))
 ```
+
+### Exemplo
+[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/22_fibonacci.py)
