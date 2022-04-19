@@ -5,61 +5,74 @@ def busca_linear(arr, elemento):
 
     return None
 
-def busca_binaria(arr, elemento, idx_ini = -1, idx_fim = -1):
-    
-    # = -1 é o valor padrão do parâmetro
-    # quando o parâmetro tem um valor padrã ele é opcional
-    idx_ini = idx_ini if idx_ini >= 0 else 0
-    idx_fim = idx_fim if idx_fim >= 0 else len(arr)
+def busca_binaria_recursiva(arr, elemento_buscado, inicio, fim):
 
-    if idx_ini > idx_fim:
+    # quando o inicio e fim se transpassam, quer dizer que o elemento não está na lista
+    if fim < inicio:
         return None
 
-    # // divide e arredonda para baixo
-    meio = (idx_ini + idx_fim) // 2
+    # começamos assim
+    # posicao_meio = len(arr) // 2
+    posicao_meio = (inicio + fim) // 2
+    valor_meio = arr[posicao_meio]
 
-    if arr[meio] == elemento:
-        return arr[meio]
-
-    elif elemento > arr[meio]:
-        return busca_binaria(arr, elemento, meio + 1, idx_fim)
-
-    elif elemento < arr[meio]:
-        return busca_binaria(arr, elemento, idx_ini, meio - 1)
+    if elemento_buscado == valor_meio:
+        return valor_meio
+    elif elemento_buscado > valor_meio:
+        # busca à direita do meio + 1 até o final
+        return busca_binaria_recursiva(arr, elemento_buscado, posicao_meio + 1, fim)
+        #                                                     ================ >>>
+    elif elemento_buscado < valor_meio:
+        # busca à esquerda da inicio até o meio - 1
+        return busca_binaria_recursiva(arr, elemento_buscado, inicio, posicao_meio - 1)
+        #                                                        <<<  ================        
 
 def busca_binaria_iterativa(arr, elemento):
-
-    ini = 0
-    fim = len(arr) - 1
-
-    while ini <= fim:
-
-        meio = (ini + fim) // 2
-
-        if arr[meio] == elemento:
-            return arr[meio]
-
-        elif elemento > arr[meio]:
-            ini = meio + 1
-
-        elif elemento < arr[meio]:
-            fim = meio - 1
-
-    # não encontrou
     return None
 
-a_int = [1, 2, 3, 4, 5, 9, 10]
-a_str = ["amarelo", "azul", "roxo", "verde"]
+a_str = ["amarelo", "azul", "branco", "roxo", "verde", "vermelho", "violeta"]
+# posição   0         1        2       | 3 |     [4         5           6]
 
-print('Linear')
-print(busca_linear(a_int, 4))
-print(busca_linear(a_int, 6))
-print(busca_linear(a_str, "azul"))
+# arr[meio] a cor que está na posição meio (3) >> arr[3] = roxo
+# tamanho do array = 7
+# meio >> 7 // 2 = 3 ("//" quer dizer divide e arredonda para baixo)
 
-print('Binary')
-print(busca_binaria(a_int, 5))
-print(busca_binaria(a_int, 2))
-print(busca_binaria_iterativa(a_int, 2))
-print(busca_binaria(a_int, 6))
-print(busca_binaria_iterativa(a_int, 6))
-print(busca_binaria(a_str, "azul"))
+print('Binaria')
+
+# inicio = 0, fim = 6
+print(busca_binaria_recursiva(a_str, "roxo", 0, 6)) 
+# inicio = 0, fim = 6
+print(busca_binaria_recursiva(a_str, "vermelho", 0, 6))
+# inicio = 0, fim = 6
+print(busca_binaria_recursiva(a_str, "azul", 0, 6))
+
+# inicio = 0, fim = 6
+print(busca_binaria_recursiva(a_str, "branco", 0, 6))
+
+# inicio = 0, fim = 6
+print(busca_binaria_recursiva(a_str, "violeta", 0, 6))
+
+######################
+# cor que não existe
+######################
+
+# inicio = 0, fim = 6
+print(busca_binaria_recursiva(a_str, "bege", 0, 6))
+
+# ["amarelo", "azul", "branco", "roxo", "verde", "vermelho", "violeta"]
+# >                                |                                  <
+# >             |             <     
+#                     >       <     bege < branco
+#                     >       <     bege < branco
+#                   < >             fim = 1, inicio = 2>> quer dizer que o elemento não está na lista
+
+
+
+# array com número par
+a_str.append("rosa")
+a_str.sort()
+
+print(a_str)
+
+print(busca_binaria_recursiva(a_str, "vermelho", 0, len(a_str) - 1))
+print(busca_binaria_recursiva(a_str, "violeta", 0, len(a_str) - 1))
