@@ -17,7 +17,6 @@ def busca_linear(arr, elemento):
 def busca_binaria_recursiva(arr, elemento_buscado, inicio, fim):
     return None
 
-
 a_str = ["amarelo", "azul", "branco", "roxo", "verde", "vermelho", "violeta"]
 
 print('Binaria')

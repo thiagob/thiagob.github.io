@@ -27,9 +27,6 @@ def busca_binaria_recursiva(arr, elemento_buscado, inicio, fim):
         return busca_binaria_recursiva(arr, elemento_buscado, inicio, posicao_meio - 1)
         #                                                        <<<  ================        
 
-def busca_binaria_iterativa(arr, elemento):
-    return None
-
 a_str = ["amarelo", "azul", "branco", "roxo", "verde", "vermelho", "violeta"]
 # posição   0         1        2       | 3 |     [4         5           6]
 

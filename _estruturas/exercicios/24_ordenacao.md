@@ -3,14 +3,15 @@ layout: page
 title: Algoritmos de Ordenação
 category: exercicio
 subject: Listas Lineares
-lesson: 8
+lesson: 9
 ---
 
 Em sua biblioteca de funções/classes criar um novo arquivo ```ordenacao.py``` para que possas importá-lo nos próximos exercícios.
 
 
 # Problema
-* Neste arquivo faça a implementação dos algoritmos de ordenacao Bubble Sort e Quick Sort conforme tempalte abaixo:
+1. Fazer implementação do algoritmo de ordenação bubble sort
+1. (Opcional) Fazer implementação do algoritmo de ordenação quick sort
 
 
 ### Template
@@ -71,4 +72,4 @@ print(a_str)
 
 ### Exemplo
 
-[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/21_ordenacao.py)
+[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/24_ordenacao.py)
