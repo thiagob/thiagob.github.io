@@ -32,4 +32,4 @@ print(fibonacci_recursivo(25))
 ```
 
 ### Exemplo
-[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/22_fibonacci.py)
+[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/21_fibonacci.py)

@@ -10,6 +10,7 @@ Em sua biblioteca de funções/classes criar um novo arquivo ```busca.py``` para
 # Problema
 * Neste arquivo faça a implementação dos algoritmos de busca linear e binária **recursiva** tempalte abaixo.
 ### Template
+
 ```python
 def busca_linear(arr, elemento):
     return None
@@ -50,6 +51,7 @@ print(a_str)
 print(busca_binaria_recursiva(a_str, "vermelho", 0, len(a_str) - 1))
 print(busca_binaria_recursiva(a_str, "violeta", 0, len(a_str) - 1))
 ```
+
 ### Exemplo
 
-[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/20_busca.py)
+[Exemplo do Professor](https://github.com/thiagob/thiagob.github.io/blob/main/_estruturas/exercicios/22_busca.py)
