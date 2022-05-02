@@ -32,18 +32,41 @@ lista.adicionar("José")
 ```python
 class Nodo:
 
-    def __init__(self, valor):
-        self.valor = valor
+    # construtor
+    def __init__(self):
+        self.valor = None
         self.proximo = None
-
 
 class ListaEncadeada:
 
+    # construtor
     def __init__(self):
         self.primeiro = None
-        self.atual = None
         self.tamanho = 0
 
-    def adicionar(self, valor):
-        return None
+    def adicionar(self, nodo):
+        # lista vazia
+        if self.vazia():
+            # adicionar como primeiro
+            ...
+        else:
+            # adiciona depois do último
+            ...
+
+        self.tamanho = self.tamanho + 1
+
+    def vazia(self):
+        # se não tem primeiro a lista está vazia
+        return ...
+
+    # retorna quem é o último
+    def ultimo(self):
+        if self.vazia():
+           return False
+        else:
+            # percorre até o nodo que não tem próximo (vulgo último)
+        
+    def remover(self):
+        # por enquanto só diminui a quantidade
+        self.tamanho = self.tamanho - 1
 ```
