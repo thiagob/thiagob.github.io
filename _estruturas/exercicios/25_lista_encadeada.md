@@ -36,6 +36,9 @@ class Nodo:
     def __init__(self):
         self.valor = None
         self.proximo = None
+        # Ao invés de criar um método para identificar o último
+        # também é possível de criar uma variável para controlar
+        # self.utlimo = None
 
 class ListaEncadeada:
 
@@ -44,6 +47,9 @@ class ListaEncadeada:
         self.primeiro = None
         self.tamanho = 0
 
+    # A implementação feita em sala de adiciona o nodo após o 
+    # último, mas também é possível de fazer uma implementação
+    # adicionando o elemento no início
     def adicionar(self, nodo):
         # lista vazia
         if self.vazia():
