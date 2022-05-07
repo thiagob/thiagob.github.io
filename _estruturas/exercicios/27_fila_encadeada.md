@@ -3,7 +3,7 @@ layout: page
 title: Fila Encadeada
 category: exercicio
 subject: Listas Lineares
-lesson: 1
+lesson: 11
 ---
 
 Utilizando a implementação de fila encadeada do professor, refazer (ctrl + c e ctrl +v trocando a classe) algum dos exercícios anteriores que utilizou fila na solução e comparar se os resultados obtidos são os mesmos.
