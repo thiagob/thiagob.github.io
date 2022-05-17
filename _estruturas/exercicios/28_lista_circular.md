@@ -1,17 +1,12 @@
 ---
 layout: page
-title: Cenário em Árvore
+title: Roda de Chimarrão
 category: exercicio
-subject: Árvores
+subject: Listas Lineares
 lesson: 12
 ---
 
-Escolher algum cenário, modelo de negócio ou dados mestre que não possa ser organizado em uma lista linear e necessite ser organizado em  árvore.
-
-Perguntas:
-1. Por que este cenário necessita ser organizado em árvore?
-1. Desenhe uma árvore exemplificando o problema proposto
-
+Implementar uma roda de chimarrão de 6 pessoas que seja controlada por uma lista circular encadeada.
 
 ### Template
 
