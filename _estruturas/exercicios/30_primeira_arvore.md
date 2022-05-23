@@ -29,5 +29,5 @@ class NoArvoreBinaria:
         self.esquerda = None
         self.direita = None
         self.tipo = None
-
+        self.nivel = 0
 ```
