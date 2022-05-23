@@ -14,8 +14,9 @@ O atritubuto Tipo define se o nó é apenas um nó, ou se é um nó raiz ou folh
 ,---------------------------.
 |NoArvoreBinaria            |
 |---------------------------|
-|+ Tipo: String             |
 |+ Valor: String            |
+|+ Tipo: String             |
+|+ Nivel: Integer           |
 |+ Esquerda: NoArvoreBinaria|
 |+ Direita: NoArvoreBinaria |
 `---------------------------'
@@ -26,8 +27,8 @@ class NoArvoreBinaria:
 
     def __init__(self):
         self.valor = None
-        self.esquerda = None
-        self.direita = None
         self.tipo = None
         self.nivel = 0
+        self.esquerda = None
+        self.direita = None
 ```
