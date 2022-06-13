@@ -16,7 +16,7 @@ permalink: /estruturas/
   {% assign subject = '' %}
   {% assign lesson = 0 %}
   
-  {% for item in items limit:33 %}
+  {% for item in items limit:100 %}
       {% if subject != item.subject %}
         {% assign subject = item.subject %}
         <h3>{{ item.subject }}</h3>
