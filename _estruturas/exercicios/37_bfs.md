@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Representação do Menu
+title: Busca em Largura
 category: exercicio
 subject: Árvores
 lesson: 16
@@ -54,7 +54,7 @@ class Arvore:
                 self.adicionar_filhos(filho, json[chave])
 ```
 
-### Exercício 36 Template
+### Template
 ```python
 from biblioteca.fila import *
 from biblioteca.arvore import Arvore
