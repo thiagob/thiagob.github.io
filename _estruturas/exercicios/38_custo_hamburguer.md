@@ -128,3 +128,24 @@ calcular_porcentagem(arv_custos.raiz)
 
 imprimir_custos(arv_custos.raiz)
 ```
+
+### Exemplo impressão
+```python
+Hambúrguer 23.0 | ?%
+..Ingredientes 10.75 | ?%
+....Carne 4.5 | ?%
+....Queijo 2.5 | ?%
+....Saladas 1.5 | ?%
+....Molho BBQ 2.25 | ?%
+......Catchup 1 | ?%
+......Açucar 0.25 | ?%
+......Molho shoyu 0.75 | ?%
+......Azeite 0.25 | ?%
+..Mão de Obra 4.0 | ?%
+....Grelhar 1.0 | ?%
+....Montagem 2 | ?%
+....Servir 1 | ?%
+..Entrega 8.25 | ?%
+....Embalagem 1.25 | ?%
+....Motorista 7 | ?%
+```
