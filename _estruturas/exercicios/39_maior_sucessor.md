@@ -9,7 +9,7 @@ Implementar os métodos
 sucessor e maior
 
 Implemente uma busca em largura para a seguinte árvore:
-![BFS](/estruturas/exercicios/39_maior_sucessor.jpg)
+![BFS](/estruturas/exercicios/39_maior_sucessor.JPG)
 
 Observe que não se trata de uma árvore binário porque existem nós com mais de 2 filhos, então utilize as classes abaixo como base para realizar a implementação.
 
