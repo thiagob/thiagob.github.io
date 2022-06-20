@@ -11,7 +11,7 @@ Por exemplo: se o custo do nó pai é 3 e este nó possui 3 filhos cada um com 1
 
 **Importante:** considerar o percentual sempre com relação ao custo do pai e não do custo total.
 
-Ao final, implementar o método `````` para fazer a impressão dos valores.
+Ao final, implementar o método ```imprimir_custos``` para fazer a impressão dos valores.
 
 Árvore de custo:
 ![BFS](/estruturas/exercicios/38_custo_hamburguer.jpg)
